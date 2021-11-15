@@ -9,3 +9,15 @@ body {
 .fw-700 {
     font-weight: 700;
 }
+
+.color-primary {
+    color: #FC2B8E;
+}
+
+.color-secondary {
+    color: #1A1B23;
+}
+
+.color-tertiary {
+    color: #9A9A9A;
+}

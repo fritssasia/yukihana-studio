@@ -19,6 +19,10 @@
     margin-top: 15px;
 }
 
+#services-section .circular-arrow {
+    padding-left: 235px;
+}
+
 #services-section .card {
     border: 1px solid #EEEEEE;
     border-radius: 6px;

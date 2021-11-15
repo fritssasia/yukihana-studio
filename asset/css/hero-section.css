@@ -1,0 +1,39 @@
+#hero-section {
+    background-color: #FFFAFC;
+    height: 100vh;
+}
+
+#hero-section h1, p {
+    margin: 0;
+}
+
+#hero-section h1 {
+    font-size: 80px;
+    font-weight: 700;
+    color: #1A1B23;
+}
+
+#hero-section h1::after {
+    content: '';
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    background-color: #FC2B8E;
+    margin-left: -18px;
+}
+
+#hero-section p {
+    color: #9E9E9E;
+    width: 350px;
+    margin: 20px 0px 20px 0px;
+}
+
+#hero-section .btn.lets-talk-with-us {
+    color: #ffffff;
+    font-weight: 700;
+    background-color: #FC2B8E;
+    box-shadow: 0px 12px 25px rgba(252, 43, 142, 0.14);
+    border-radius: 16px;
+    padding: 20px 30px 20px 30px;
+    margin-top: 15px;
+}

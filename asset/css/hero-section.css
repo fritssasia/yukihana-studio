@@ -9,7 +9,7 @@
 }
 
 #hero-section h1 {
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 700;
     color: #1A1B23;
 }
@@ -35,6 +35,30 @@
     background-color: #FC2B8E;
     box-shadow: 0px 12px 25px rgba(252, 43, 142, 0.14);
     border-radius: 16px;
-    padding: 20px 30px 20px 30px;
+    padding: 20px 0px 20px 0px;
+    width: 100%;
     margin-top: 15px;
 }
+
+
+/* Medium devices (tablets, 768px and up)  */
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #hero-section {
+        height: 100vh;
+    }
+
+    #hero-section h1 {
+        font-size: 80px;
+    }
+
+    #hero-section .btn.lets-talk-with-us {
+        padding: 20px 30px 20px 30px;
+        width: unset;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}

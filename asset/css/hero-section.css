@@ -38,6 +38,8 @@
     padding: 20px 0px 20px 0px;
     width: 100%;
     margin-top: 15px;
+    display: block;
+    margin: auto;
 }
 
 
@@ -56,6 +58,7 @@
 
     #hero-section .btn.lets-talk-with-us {
         padding: 20px 30px 20px 30px;
+        display: inline-block;
         width: unset;
     }
 }

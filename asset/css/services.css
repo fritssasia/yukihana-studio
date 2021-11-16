@@ -1,12 +1,16 @@
-#services-section h1 {
-    color: #1A1B23;
-    font-size: 70px;
+#services-section .services-heading {
+    font-size: 50px;
     font-weight: 700;
+    width: 310px;
+    display: block;
+    margin: auto;
 }
 
 #services-section .services-desc {
     width: 320px;
     padding: 24px 0px 24px 0px;
+    display: block;
+    margin: auto;
 }
 
 #services-section .btn.check-our-works {
@@ -16,7 +20,10 @@
     padding: 20px 30px 20px 30px;
     border-radius: 16px;
     box-shadow: 0px 12px 25px rgba(252, 43, 142, 0.14);
-    margin-top: 15px;
+    display: block;
+    width: 90%;
+    margin: auto;
+    margin-top: 35px;
 }
 
 #services-section .circular-arrow {
@@ -36,4 +43,32 @@
 #services-section .card .desc {
     font-size: 15px;
     color: #9A9A9A;
+    width: 228px;
+    display: block;
+    margin: auto;
 }
+
+/* Medium devices (tablets, 768px and up)  */
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #services-section .services-heading {
+        width: 100px;
+        font-size: 70px;
+        display: unset;
+    }
+
+    #services-section .services-desc {
+        margin: unset;
+    }
+
+    #services-section .btn.check-our-works {
+        display: inline-block;
+        width: unset;
+        margin-top: 20px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}

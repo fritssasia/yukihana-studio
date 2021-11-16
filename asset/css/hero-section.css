@@ -1,5 +1,6 @@
 #hero-section {
-    background-color: #FFFAFC;
+    background-image: url('../images/background/bg-pattern-pink.png');
+    background-size: cover;
     height: 100vh;
 }
 

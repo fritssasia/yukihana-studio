@@ -1,0 +1,17 @@
+#lets-talk-section {
+    background-image: url('../images/background/bg-pattern-pink.png');
+    background-size: cover;
+    height: 502px;
+    position: relative !important;
+}
+
+#lets-talk-section .heading-lets-talk {
+    font-weight: 700;
+    font-size: 65px;
+}
+
+#lets-talk-section .illustration-img {
+    right: 0;
+    position: absolute;
+    bottom: 0 !important;   
+}

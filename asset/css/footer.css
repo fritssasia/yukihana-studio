@@ -1,0 +1,12 @@
+#footer-section {
+    height: 80px;
+}
+
+#footer-section .copyright {
+    color: #C2C2C2;
+}
+
+#footer-section .btn.terms-of-service {
+    font-weight: 500;
+    color: #707070;
+}

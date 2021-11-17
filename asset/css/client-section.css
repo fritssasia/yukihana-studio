@@ -1,0 +1,31 @@
+#client-section .client-heading {
+    font-size: 60px;
+    width: 389px;
+    display: inline-block;
+}
+
+#client-section .circular-arrow-icon {
+    position: absolute;
+    display: inline-block;
+    z-index: 1;
+    margin-top: 105px;
+    margin-left: -35px;
+}
+
+#client-section .card {
+    border: 1px solid #EEEEEE;
+    border-radius: 8px;
+}
+
+#client-section .client-testimonial {
+    font-weight: 700
+}
+
+#client-section .client-name {
+    font-weight: 500;
+    padding-top: 15px;
+}
+
+#client-section .client-profession {
+    color: #B6B6B6;
+}

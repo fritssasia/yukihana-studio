@@ -22,3 +22,17 @@ body {
 .color-tertiary {
     color: #9A9A9A;
 }
+
+.primary-btn {
+    background-color: #FC2B8E;
+    color: #ffffff;
+    font-weight: 700;
+    box-shadow: 0px 12px 25px rgba(252, 43, 142, 0.14);
+    border-radius: 16px;
+}
+
+.secondary-btn {
+    background-color: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    border-radius: 12px;
+}

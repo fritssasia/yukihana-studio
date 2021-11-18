@@ -6,7 +6,7 @@
 
 #client-section .circular-arrow-icon {
     position: absolute;
-    display: inline-block;
+    display: none;
     z-index: 1;
     margin-top: 105px;
     margin-left: -35px;
@@ -29,3 +29,20 @@
 #client-section .client-profession {
     color: #B6B6B6;
 }
+
+/* Medium devices (tablets, 768px and up)  */
+@media (min-width: 768px) {
+    #client-section .circular-arrow-icon {
+        position: absolute;
+        display: inline-block;
+        z-index: 1;
+        margin-top: 105px;
+        margin-left: -35px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}

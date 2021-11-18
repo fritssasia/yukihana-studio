@@ -10,6 +10,8 @@
 #works-section .video-thumbnail-img {
     width: 100%;
     height: 368px;
+    display: block;
+    margin: auto;
 }
 
 #works-section .overlay {

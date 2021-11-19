@@ -1,3 +1,7 @@
+html, body {
+    overflow-x: hidden;
+}
+
 body {
     font-family: 'Helvetica Neue',;
     color: #1A1B23;

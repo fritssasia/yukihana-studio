@@ -17,8 +17,17 @@
     border-radius: 8px;
 }
 
+#client-section .expression-img {
+    display: block;
+    margin: auto;
+}
+
 #client-section .client-testimonial {
-    font-weight: 700
+    font-weight: 700;
+}
+
+#client-section .client-testimonial, .client-name, .client-profession {
+    text-align: center;
 }
 
 #client-section .client-name {

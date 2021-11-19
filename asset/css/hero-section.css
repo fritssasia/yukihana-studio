@@ -1,7 +1,7 @@
 #hero-section {
     background-image: url('../images/background/bg-pattern-pink.png');
     background-size: cover;
-    height: 100vh;
+    height: 734px;
 }
 
 #hero-section h1, p {
@@ -17,7 +17,8 @@
 #hero-section p {
     color: #9E9E9E;
     width: 350px;
-    margin: 20px 0px 20px 0px;
+    display: block;
+    margin: 20px auto 20px auto;
 }
 
 #hero-section .btn.lets-talk-with-us {

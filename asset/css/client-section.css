@@ -51,7 +51,18 @@
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+    #client-section .client-testimonial,
+    .client-name,
+    .client-profession {
+        text-align: left;
+    }
+
+    #client-section .expression-img {
+        display: unset;
+        margin: unset;
+    }
+}
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {}

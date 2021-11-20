@@ -9,12 +9,12 @@
 }
 
 #pricing-section .card .heading {
-    font-weight: 700;
+    font-family: 'HelveticaNeueMedium';
 }
 
 #pricing-section .price {
+    font-family: 'HelveticaNeueBold';
     font-size: 40px;
-    font-weight: 700;
     color: #FC7D2B;
 }
 

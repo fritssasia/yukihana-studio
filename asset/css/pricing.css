@@ -1,4 +1,5 @@
 #pricing-section .pricing-heading {
+    font-family: 'HelveticaNeueMedium';
     font-size: 60px;
 }
 
@@ -29,6 +30,7 @@
 
 #pricing-section ul li img {
     vertical-align: middle;
+    display: inline-block;
 }
 
 #pricing-section ul li span {

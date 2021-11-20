@@ -6,7 +6,7 @@
 }
 
 #lets-talk-section .heading-lets-talk {
-    font-weight: 700;
+    font-family: 'HelveticaNeueMedium';
     font-size: 40px;
 }
 
@@ -27,6 +27,10 @@
     width: 41px;
     height: 41px;
     margin-left: 20px;
+}
+
+#lets-talk-section .socmed-btn:hover {
+    filter: brightness(90%);
 }
 
 #lets-talk-section .illustration-img {

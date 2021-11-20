@@ -1,4 +1,5 @@
 #client-section .client-heading {
+    font-family: 'HelveticaNeueMedium';
     font-size: 60px;
     width: 389px;
     display: inline-block;
@@ -23,7 +24,7 @@
 }
 
 #client-section .client-testimonial {
-    font-weight: 700;
+    font-family: 'HelveticaNeueBold';
 }
 
 #client-section .client-testimonial, .client-name, .client-profession {
@@ -31,11 +32,12 @@
 }
 
 #client-section .client-name {
-    font-weight: 500;
+    font-family: 'HelveticaNeueMedium';
     padding-top: 15px;
 }
 
 #client-section .client-profession {
+    font-size: 15px;
     color: #B6B6B6;
 }
 

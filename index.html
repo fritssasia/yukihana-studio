@@ -10,9 +10,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <!-- Font : Helvetica -->
-    <link href="http://fonts.cdnfonts.com/css/helvetica-neue-9" rel="stylesheet">
-
     <!-- Owl Carousel CSS -->
     <link rel="stylesheet" href="asset/css/owl.carousel.min.css">
 
@@ -53,14 +50,14 @@
 
     <!-- Navbar : Start -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top" id="navbar">
-        <div class="container-fluid px-lg-5">
-            <a class="navbar-brand" href="#"><img src="asset/images/logo/yukihana-studio.svg" alt=""></a>
-            <button class="navbar-toggler bg-transparent border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"  
+        <div class="container-fluid px-lg-5 px-0">
+            <a class="navbar-brand ps-4 ps-lg-0" href="#"><img src="asset/images/logo/yukihana-studio.svg" alt=""></a>
+            <button class="navbar-toggler bg-transparent border-0 shadow-none pe-4 pe-lg-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"  
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <img src="asset/icons/hamburger-menu.svg" alt="">
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mx-auto text-center">
+                <ul class="navbar-nav mx-auto text-center py-2">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#hero-section">Home</a>
                     </li>
@@ -78,7 +75,7 @@
                     </li>
                 </ul>
                 <div class="d-none d-lg-block ml-auto">
-                    <a href="#lets-talk-section" class="btn contact-us">Contact us</a>
+                    <a href="#lets-talk-section" class="btn primary-btn contact-us">Contact us</a>
                 </div>
             </div>
         </div>
@@ -88,13 +85,13 @@
     <!-- Hero Section : Start -->
     <section id="hero-section" class="position-relative d-flex align-items-center">
         <div class="container">
-            <div class="row d-flex align-items-center g-0">
+            <div class="row d-flex align-items-center g-0 pt-lg-5 pt-0">
 
                 <div class="col-lg-5 order-lg-0 order-1">
-                    <h1 class="text-center text-lg-start">
+                    <h1 class="text-center text-lg-start fw-medium">
                         Make your<br>
                         debut more<br>
-                        interesting
+                        interesting<span class="color-primary">.</span>
                     </h1>
 
                     <p class="desc text-center text-lg-start">
@@ -108,8 +105,26 @@
 
                 </div>
 
-                <div class="col-lg-7 order-lg-1 order-0">
+                <div class="col order-lg-1 order-0">
+                    <button type="button" class="btn p-0 shadow-none" data-bs-toggle="modal" data-bs-target="#heroSectionPopUpVideo">
                     <img src="asset/images/video-thumbnail/hero-section-video-thumbnail.png" alt="" class="video-thumbnail-img">
+                    </button>
+
+                    <div class="modal fade heroSectionPopUpVideo" id="heroSectionPopUpVideo" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-fullscreen">
+                            <div class="modal-content">
+                                <div class="modal-header border-0 px-5 pt-3">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <iframe class="heroSectionVideo" id="Geeks3" src="https://www.youtube.com/embed/mM8Fvemp-YU?autoplay=0"
+                                        frameborder="0" allowfullscreen>
+                                    </iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
             </div>
@@ -118,8 +133,8 @@
     <!-- Hero Section : End -->
 
     <!-- Services : Start -->
-    <section id="services-section" class="py-5">
-        <div class="container">
+    <section id="services-section" class="py-5 mt-5">
+        <div class="container pt-lg-5 pt-4">
             <div class="row">
 
                 <div class="col-lg-6">
@@ -131,7 +146,7 @@
                         <img src="asset/icons/circular-arrow-1.svg" alt="" class="circular-arrow">
                     </div>
                     <div class="position-relative d-none d-lg-block">
-                        <a href="#" class="btn check-our-works">Check our works</a>
+                        <a href="#" class="btn primary-btn check-our-works">Check our works</a>
                     </div>
                 </div>
 
@@ -184,7 +199,7 @@
 
                     </div>
                     <div class="position-relative d-block d-lg-none">
-                        <a href="#" class="btn check-our-works">Check our works</a>
+                        <a href="#" class="btn primary-btn check-our-works">Check our works</a>
                     </div>
                 </div>
 
@@ -195,12 +210,13 @@
 
     <div class="pricing-and-works-wrapper" style="background-image: url('asset/images/background/bg-pattern-black-and-pink.png'); background-size: contain; background-position: center; background-repeat: no-repeat;">
     <!-- Pricing : Start -->
-    <section id="pricing-section" class="py-5">
-        <div class="container">
-            <h1 class="pricing-heading fw-700">Our <span class="color-primary">pricing</span>.</h1>
+    <section id="pricing-section" class="py-5 mt-5">
+        <div class="container pt-lg-5 pt-4">
+            <div class="d-flex justify-content-between">
+            <h1 class="pricing-heading">Our <span class="color-primary">pricing</span>.</h1>
 
-            <div class="owl-carousel-nav-btn-wrapper">
-                <button class="btn prev">
+            <div class="owl-carousel-nav-btn-wrapper text-end d-lg-block d-none pt-4">
+                <button class="btn btn-slider-pricing-prev prev">
                     <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd"
                             d="M22.8726 9.5275C23.2101 9.86505 23.3996 10.3228 23.3996 10.8001C23.3996 11.2774 23.2101 11.7352 22.8726 12.0727L16.9452 18.0001L22.8726 23.9275C23.2005 24.267 23.3819 24.7217 23.3778 25.1936C23.3737 25.6656 23.1844 26.117 22.8507 26.4508C22.5169 26.7845 22.0655 26.9738 21.5935 26.9779C21.1216 26.982 20.6669 26.8006 20.3274 26.4727L13.1274 19.2727C12.79 18.9352 12.6004 18.4774 12.6004 18.0001C12.6004 17.5228 12.79 17.0651 13.1274 16.7275L20.3274 9.5275C20.665 9.19006 21.1227 9.00049 21.6 9.00049C22.0773 9.00049 22.5351 9.19006 22.8726 9.5275Z"
@@ -209,7 +225,7 @@
             
                 </button>
             
-                <button class="btn next">
+                <button class="btn btn-slider-pricing-next next">
                     <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd"
                             d="M13.1274 26.4727C12.79 26.1351 12.6004 25.6774 12.6004 25.2001C12.6004 24.7228 12.79 24.265 13.1274 23.9275L19.0548 18.0001L13.1274 12.0727C12.7995 11.7332 12.6181 11.2785 12.6222 10.8066C12.6263 10.3346 12.8156 9.88316 13.1493 9.54943C13.4831 9.21569 13.9345 9.02639 14.4065 9.02228C14.8785 9.01818 15.3331 9.19961 15.6726 9.5275L22.8726 16.7275C23.2101 17.065 23.3996 17.5228 23.3996 18.0001C23.3996 18.4774 23.2101 18.9351 22.8726 19.2727L15.6726 26.4727C15.3351 26.8101 14.8773 26.9997 14.4 26.9997C13.9227 26.9997 13.465 26.8101 13.1274 26.4727Z"
@@ -217,6 +233,7 @@
                     </svg>
             
                 </button>
+            </div>
             </div>
 
             <div class="owl-carousel pt-5" id="sliderPricing">
@@ -368,16 +385,37 @@
 
             </div>
 
+            <!-- Slider Navigation For Mobile Devices -->
+            <div class="owl-carousel-nav-btn-wrapper text-center d-lg-none d-block">
+                <button class="btn btn-slider-pricing-prev prev">
+                    <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M22.8726 9.5275C23.2101 9.86505 23.3996 10.3228 23.3996 10.8001C23.3996 11.2774 23.2101 11.7352 22.8726 12.0727L16.9452 18.0001L22.8726 23.9275C23.2005 24.267 23.3819 24.7217 23.3778 25.1936C23.3737 25.6656 23.1844 26.117 22.8507 26.4508C22.5169 26.7845 22.0655 26.9738 21.5935 26.9779C21.1216 26.982 20.6669 26.8006 20.3274 26.4727L13.1274 19.2727C12.79 18.9352 12.6004 18.4774 12.6004 18.0001C12.6004 17.5228 12.79 17.0651 13.1274 16.7275L20.3274 9.5275C20.665 9.19006 21.1227 9.00049 21.6 9.00049C22.0773 9.00049 22.5351 9.19006 22.8726 9.5275Z"
+                            fill="#9B9B9B" />
+                    </svg>
+            
+                </button>
+            
+                <button class="btn btn-slider-pricing-next next">
+                    <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M13.1274 26.4727C12.79 26.1351 12.6004 25.6774 12.6004 25.2001C12.6004 24.7228 12.79 24.265 13.1274 23.9275L19.0548 18.0001L13.1274 12.0727C12.7995 11.7332 12.6181 11.2785 12.6222 10.8066C12.6263 10.3346 12.8156 9.88316 13.1493 9.54943C13.4831 9.21569 13.9345 9.02639 14.4065 9.02228C14.8785 9.01818 15.3331 9.19961 15.6726 9.5275L22.8726 16.7275C23.2101 17.065 23.3996 17.5228 23.3996 18.0001C23.3996 18.4774 23.2101 18.9351 22.8726 19.2727L15.6726 26.4727C15.3351 26.8101 14.8773 26.9997 14.4 26.9997C13.9227 26.9997 13.465 26.8101 13.1274 26.4727Z"
+                            fill="#9B9B9B" />
+                    </svg>
+            
+                </button>
+            </div>
+
         </div>
     </section>
     <!-- Pricing : End -->
 
     <!-- Works : Start -->
-    <section id="works-section" class="position-relative py-5">
-        <div class="container position-relative">
-            <h1 class="works-heading text-center fw-700">Our <span class="color-primary">works</span>.</h1>
+    <section id="works-section" class="position-relative py-5 mt-5">
+        <div class="container pt-lg-5 pt-4">
+            <h1 class="works-heading text-center">Our <span class="color-primary">works</span>.</h1>
 
-            <div class="owl-carousel" id="sliderOurWork">
+            <div class="owl-carousel pt-5" id="sliderOurWork">
 
                 <!-- Content video - 01 : Start -->
                 <div>
@@ -440,15 +478,19 @@
                 <!-- Content video - 04 : End -->
             </div>
 
-            <div class="d-flex justify-content-between">
-                <select name="" id="">
-                    <option value="">1</option>
-                    <option value="">1</option>
-                    <option value="">1</option>
+            <div class="d-lg-flex justify-content-lg-between text-center text-lg-start">
+                <div class="select-wrapper">
+                <select class="form-select shadow-none d-block mx-auto">
+                    <option value="none" selected hidden disabled>Select</option>
+                    <option value="">Music Video</option>
+                    <option value="">Preview Video</option>
+                    <option value="">Intro . Outro</option>
+                    <option value="">Stringer</option>
                 </select>
+                </div>
 
-                <div class="owl-carousel-nav-btn-wrapper text-right">
-                    <button class="btn prev">
+                <div class="owl-carousel-nav-btn-wrapper pt-4">
+                    <button class="btn btn-slider-our-works-prev prev">
                         <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd"
                                 d="M22.8726 9.5275C23.2101 9.86505 23.3996 10.3228 23.3996 10.8001C23.3996 11.2774 23.2101 11.7352 22.8726 12.0727L16.9452 18.0001L22.8726 23.9275C23.2005 24.267 23.3819 24.7217 23.3778 25.1936C23.3737 25.6656 23.1844 26.117 22.8507 26.4508C22.5169 26.7845 22.0655 26.9738 21.5935 26.9779C21.1216 26.982 20.6669 26.8006 20.3274 26.4727L13.1274 19.2727C12.79 18.9352 12.6004 18.4774 12.6004 18.0001C12.6004 17.5228 12.79 17.0651 13.1274 16.7275L20.3274 9.5275C20.665 9.19006 21.1227 9.00049 21.6 9.00049C22.0773 9.00049 22.5351 9.19006 22.8726 9.5275Z"
@@ -457,7 +499,7 @@
 
                     </button>
                     
-                    <button class="btn next">
+                    <button class="btn btn-slider-our-works-next next">
                         <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd"
                                 d="M13.1274 26.4727C12.79 26.1351 12.6004 25.6774 12.6004 25.2001C12.6004 24.7228 12.79 24.265 13.1274 23.9275L19.0548 18.0001L13.1274 12.0727C12.7995 11.7332 12.6181 11.2785 12.6222 10.8066C12.6263 10.3346 12.8156 9.88316 13.1493 9.54943C13.4831 9.21569 13.9345 9.02639 14.4065 9.02228C14.8785 9.01818 15.3331 9.19961 15.6726 9.5275L22.8726 16.7275C23.2101 17.065 23.3996 17.5228 23.3996 18.0001C23.3996 18.4774 23.2101 18.9351 22.8726 19.2727L15.6726 26.4727C15.3351 26.8101 14.8773 26.9997 14.4 26.9997C13.9227 26.9997 13.465 26.8101 13.1274 26.4727Z"
@@ -482,7 +524,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <iframe class="ourWorksVideo" id="Geeks3" style="width: 80%; height: 90%;"
+                    <iframe class="ourWorksVideo" id="Geeks3" 
                         src="https://www.youtube.com/embed/mM8Fvemp-YU?autoplay=0" frameborder="0" allowfullscreen>
                     </iframe>
                 </div>
@@ -500,7 +542,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <iframe class="ourWorksVideo" id="Geeks3" style="width: 80%; height: 90%;"
+                    <iframe class="ourWorksVideo" id="Geeks3" 
                         src="https://www.youtube.com/embed/mM8Fvemp-YU?autoplay=0" frameborder="0" allowfullscreen>
                     </iframe>
                 </div>
@@ -518,7 +560,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <iframe class="ourWorksVideo" id="Geeks3" style="width: 80%; height: 90%;"
+                    <iframe class="ourWorksVideo" id="Geeks3" 
                         src="https://www.youtube.com/embed/mM8Fvemp-YU?autoplay=0" frameborder="0" allowfullscreen>
                     </iframe>
                 </div>
@@ -536,7 +578,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <iframe class="ourWorksVideo" id="Geeks3" style="width: 80%; height: 90%;"
+                    <iframe class="ourWorksVideo" id="Geeks3" 
                         src="https://www.youtube.com/embed/b6v7QV0HfNE?autoplay=0" frameborder="0" allowfullscreen>
                     </iframe>
                 </div>
@@ -549,9 +591,9 @@
     </div>
 
     <!-- Client : Start -->
-    <section id="client-section" class="py-5">
-        <div class="container px-3">
-            <h1 class="client-heading fw-700">
+    <section id="client-section" class="py-5 mt-5">
+        <div class="container px-3 pt-lg-5 pt-4">
+            <h1 class="client-heading fw-700 text-center text-lg-start">
                 What our <span class="color-primary">client</span> says.
             </h1>
             <img src="asset/icons/circular-arrow-2.svg" alt="" class="circular-arrow-icon">
@@ -645,71 +687,11 @@
     <!-- Owl Carousel JS -->
     <script src="asset/js/owl.carousel.min.js"></script>
 
-    <script>
-        var carouselOurWork = $('#sliderOurWork');
-        carouselOurWork.owlCarousel({
-            loop: true,
-            margin: 10,
-            // center: true,
-            nav: false,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                600: {
-                    items: 2
-                }
-            }
-        });
-
-        var carouselPricing = $('#sliderPricing');
-            carouselPricing.owlCarousel({
-                loop: true,
-                margin: 10,
-                // center: true,
-                nav: false,
-                responsive: {
-                    0: {
-                        items: 1
-                    },
-                    600: {
-                        items: 4
-                    }
-                }
-            });
-    </script>
-
-    <script>
-    $(".prev").click(function () {
-            carouselPricing.trigger('next.owl.carousel');
-        });
-        $(".next").click(function () {
-            carouselPricing.trigger('prev.owl.carousel');
-        });
-    
-    $(".prev").click(function () {
-        carouselOurWork.trigger('next.owl.carousel');
-    });
-    $(".next").click(function () {
-        carouselOurWork.trigger('prev.owl.carousel');
-    });
-    </script>
-
-    <style>
-        .bs-example {
-            margin: 20px;
-        }
-    
-        .modal-content iframe {
-            margin: 0 auto;
-            display: block;
-            border: 4px solid #FC2B8E;
-            border-radius: 8px;
-        }
-    </style>
-
     <!-- Our Works Video Player JS -->
-    <script src="asset/js/our-works-popup-video.js"></script>
+    <script src="asset/js/popup-video.js"></script>
+
+    <!-- Owl Carousel Slider JS -->
+    <script src="asset/js/owl.carousel-slider.js"></script>
 
 </body>
 

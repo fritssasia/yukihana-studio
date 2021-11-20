@@ -1,6 +1,6 @@
 #services-section .services-heading {
+    font-family: 'HelveticaNeueMedium';
     font-size: 50px;
-    font-weight: 700;
     width: 310px;
     display: block;
     margin: auto;
@@ -14,12 +14,7 @@
 }
 
 #services-section .btn.check-our-works {
-    background-color: #FC2B8E;
-    color: #ffffff;
-    font-weight: 700;
     padding: 20px 30px 20px 30px;
-    border-radius: 16px;
-    box-shadow: 0px 12px 25px rgba(252, 43, 142, 0.14);
     display: block;
     width: 90%;
     margin: auto;
@@ -36,7 +31,7 @@
 }
 
 #services-section .card .heading {
-    font-weight: 700;
+    font-family: 'HelveticaNeueMedium';
     margin: 10px 0px 10px 0px;
 }
 
@@ -51,9 +46,9 @@
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     #services-section .services-heading {
-        width: 100px;
+        width: 500px;
         font-size: 70px;
-        display: unset;
+        display: inline-block;
     }
 
     #services-section .services-desc {
@@ -63,7 +58,7 @@
     #services-section .btn.check-our-works {
         display: inline-block;
         width: unset;
-        margin-top: 20px;
+        margin-top: 10px;
     }
 }
 

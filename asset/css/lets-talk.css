@@ -67,9 +67,14 @@
         bottom: 0 !important;
         left: unset;
         width: unset;
-        height: unset;
+        height: 380px;
     }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+    #lets-talk-section .illustration-img {
+        width: unset;
+        height: unset;
+    }
+}

@@ -1,3 +1,15 @@
+// == Hero Section - Video : Start ==
+$(document).ready(function () {
+    var url = $(".heroSectionVideo").attr('src');
+    $(".heroSectionPopUpVideo").on('hide.bs.modal', function () {
+        $(".heroSectionVideo").attr('src', '');
+    });
+    $(".heroSectionPopUpVideo").on('show.bs.modal', function () {
+        $(".heroSectionVideo").attr('src', url + "?autoplay=0&amp;modestbranding=1&amp;showinfo=0");
+    });
+});
+// == Hero Section - Video : End ==
+
 // == Our Works - Music Video : Start ==
 // Our Works - Music Video 01
 $(document).ready(function () {

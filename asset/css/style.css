@@ -72,3 +72,7 @@ body {
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {}
 /* Modal Style : End */
+
+.our-works-content {
+    display: none;
+}

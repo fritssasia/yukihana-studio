@@ -1,8 +1,8 @@
 #client-section .client-heading {
     font-family: 'HelveticaNeueMedium';
     font-size: 60px;
-    width: 389px;
     display: inline-block;
+    margin: auto;
 }
 
 #client-section .circular-arrow-icon {
@@ -43,6 +43,10 @@
 
 /* Medium devices (tablets, 768px and up)  */
 @media (min-width: 768px) {
+    #client-section .client-heading {
+        width: 389px;
+    }
+    
     #client-section .circular-arrow-icon {
         position: absolute;
         display: inline-block;

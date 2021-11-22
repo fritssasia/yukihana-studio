@@ -66,3 +66,16 @@
 .our-works-content {
     display: none;
 }
+
+/* Medium devices (tablets, 768px and up)  */
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #works-section .select-wrapper {
+        padding-top: 15px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}

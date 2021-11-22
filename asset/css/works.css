@@ -62,3 +62,7 @@
 #works-section .form-select:active {
     border-color: #FC2B8E;
 }
+
+.our-works-content {
+    display: none;
+}
